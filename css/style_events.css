@@ -1,0 +1,36 @@
+/**************************************************************************************
+                                         Event style sheet
+***************************************************************************************/
+
+main .event-banners{
+    /*https://unsplash.com/fr/photos/JNuKyKXLh8U?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink*/
+    background: url(../img/event.jpg) no-repeat;
+    height: 250px;
+    width: 100%;
+}
+
+.event{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.event::last-child{
+    margin-bottom: 30px;
+}
+
+.event-content {
+    margin-left: 10px;
+}
+
+.event-title{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    font-weight: bold;
+}
+
+.event-description{
+    margin: 0px;
+}
